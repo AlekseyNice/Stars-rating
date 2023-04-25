@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>★ Stars rating ★</title>
+</head>
+<body>
+<div class="wrapper">
+	<h1>Stars rating</h1>
+	<form action="#" class="form form_margin">
+		<div class="form__item">
+			<div class="form__label">Simple rating (only CSS)</div>
+			<div class="simple-rating">
+				<div class="simple-rating__items">
+					<input id="simple-rating__10" type="radio" class="simple-rating__item" mane="simple-rating" value="10">
+					<label for="simple-rating__10" class="simple-rating__label"></label>
+					<input id="simple-rating__9" type="radio" class="simple-rating__item" mane="simple-rating" value="9">
+					<label for="simple-rating__9" class="simple-rating__label"></label>
+					<input id="simple-rating__8" type="radio" class="simple-rating__item" mane="simple-rating" value="8">
+					<label for="simple-rating__8" class="simple-rating__label"></label>
+					<input id="simple-rating__7" type="radio" class="simple-rating__item" mane="simple-rating" value="7">
+					<label for="simple-rating__7" class="simple-rating__label"></label>
+					<input id="simple-rating__6" type="radio" class="simple-rating__item" mane="simple-rating" value="6">
+					<label for="simple-rating__6" class="simple-rating__label"></label>
+					<input id="simple-rating__5" type="radio" class="simple-rating__item" checked mane="simple-rating" value="5">
+					<label for="simple-rating__5" class="simple-rating__label"></label>
+					<input id="simple-rating__4" type="radio" class="simple-rating__item" mane="simple-rating" value="4">
+					<label for="simple-rating__4" class="simple-rating__label"></label>
+					<input id="simple-rating__3" type="radio" class="simple-rating__item" mane="simple-rating" value="3">
+					<label for="simple-rating__3" class="simple-rating__label"></label>
+					<input id="simple-rating__2" type="radio" class="simple-rating__item" mane="simple-rating" value="2">
+					<label for="simple-rating__2" class="simple-rating__label"></label>
+					<input id="simple-rating__1" type="radio" class="simple-rating__item" mane="simple-rating" value="1">
+					<label for="simple-rating__1" class="simple-rating__label"></label>
+				</div>
+			</div>
+		</div>
+
+		<div class="form__item">
+			<div class="form__label">Accurate rating (CSS and JS)</div>
+			<div class="rating rating_set">
+				<div class="rating__body">
+					<div class="rating__active"></div>
+					<div class="rating__items">
+						<input type="radio" class="rating__item" value="1" mane="rating">
+						<input type="radio" class="rating__item" value="2" mane="rating">
+						<input type="radio" class="rating__item" value="3" mane="rating">
+						<input type="radio" class="rating__item" value="4" mane="rating">
+						<input type="radio" class="rating__item" value="5" mane="rating">
+						<input type="radio" class="rating__item" value="6" mane="rating">
+						<input type="radio" class="rating__item" value="7" mane="rating">
+						<input type="radio" class="rating__item" value="8" mane="rating">
+						<input type="radio" class="rating__item" value="9" mane="rating">
+						<input type="radio" class="rating__item" value="10" mane="rating">
+					</div>
+				</div>
+				<div class="rating__value">5.5</div>
+			</div>
+		</div>
+		<button type="submit" class="form__btn btn">Send</button>
+	</form>
+
+	<div class="form">
+		<div class="form__label">Accurate rating (CSS and JS + AJAX)</div>
+		<div data-ajax="true" class="rating rating_set">
+			<div class="rating__body">
+				<div class="rating__active"></div>
+				<div class="rating__items">
+					<input type="radio" class="rating__item" value="1" mane="rating">
+					<input type="radio" class="rating__item" value="2" mane="rating">
+					<input type="radio" class="rating__item" value="3" mane="rating">
+					<input type="radio" class="rating__item" value="4" mane="rating">
+					<input type="radio" class="rating__item" value="5" mane="rating">
+					<input type="radio" class="rating__item" value="6" mane="rating">
+					<input type="radio" class="rating__item" value="7" mane="rating">
+					<input type="radio" class="rating__item" value="8" mane="rating">
+					<input type="radio" class="rating__item" value="9" mane="rating">
+					<input type="radio" class="rating__item" value="10" mane="rating">
+				</div>
+			</div>
+			<div class="rating__value">8.6</div>
+		</div>
+	</div>
+
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
